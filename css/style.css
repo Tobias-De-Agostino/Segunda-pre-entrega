@@ -174,17 +174,21 @@ h4{
 }
 .imgp3{
     width: 100%;
-    height: 100%;
+    height: 70%;
     overflow: hidden;   
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-bottom: 7.1875rem;
 }
 .imgp4{
     width: 100%;
-    height: 100%;
+    height: 70%;
     overflow: hidden;   
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-bottom: 7.1875rem;
 }
 .imgp1 img{
     width: 100%;
@@ -218,6 +222,8 @@ h4{
     overflow: hidden;   
     display: flex;
     flex-direction: row;
+    margin-bottom: .1875rem;
+    align-items: center;
 }
 .imgp6{
     width: 100%;
@@ -225,6 +231,7 @@ h4{
     overflow: hidden;   
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .imgp7{
     width: 100%;
@@ -232,6 +239,7 @@ h4{
     overflow: hidden;   
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .imgp8{
     width: 100%;
@@ -239,6 +247,15 @@ h4{
     overflow: hidden;   
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+.imgp9{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .imgp5 img{
     width: 100%;
@@ -261,6 +278,12 @@ h4{
 .imgp8 img{
     width: 105%;
     height: 90%;
+    object-fit: cover;
+    border-radius: .625rem .625rem .625rem .625rem;
+}
+.imgp9 img{
+    width: 100%;
+    height: 45%;
     object-fit: cover;
     border-radius: .625rem .625rem .625rem .625rem;
 }
@@ -544,3 +567,6 @@ input{
     color: black;
     border: solid 3px black;
 }
+
+
+@media
